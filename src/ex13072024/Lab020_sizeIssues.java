@@ -1,8 +1,6 @@
-package ex07072024;
+package ex13072024;
 
-public class Lab006 {
+public class Lab020_sizeIssues {
     public static void main(String[] args) {
-
     }
-
 }

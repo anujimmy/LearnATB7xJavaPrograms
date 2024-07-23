@@ -2,16 +2,19 @@ package ex13072024;
 
 public class Lab016_conversion2binaryAtJVM {
     public static void main(String[] args) {
-        byte a = 10;
-        System.out.println("a - "+ a);
-        //JVM - will start from psvm always
-        //10 is now decimal  which is converted to binary number(8 bit)
-        //8 bit binary value of 10 is 00001010.
-        // 8 bits = 1 Byte
+        //        byte b = 128;
 
-        //byte can store 1 byte = 8 bits default value is 0
-        //basically the no of bits allocated to each variable type differs
-        //bigger the number or decimal points - more will be the bits allocated to them
+//        byte b can hold 128 compiler will throw incompatible types as byte can handle only -128 to 127
+
+//        Characters are 2 types
+//            ASCII - every character has a decimal value associated with it
+//                Capital A has Decimal value - 65 & this decimal is converted to binary
+
+//            Unicode - characters - different mandarin values symbols like indian rupee british pounds etc
+//                Smileys also has unicode characters
+//      System.out.println("B - " +  b); //- If we print b we get error java: incompatible types: possible lossy conversion from int to byte
+        byte b= -127;
+        System.out.println("B - " +  b);
 
     }
 }

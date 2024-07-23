@@ -3,7 +3,7 @@ package ex13072024;
 public class Lab025 {
     public static void main(String[] args) {
         String name = "Anu Jimmy";
-        String surname  = "Thomas"
+        String surname  = "Thomas";
         System.out.printf("Your name is -> %s %s",name,surname);
         System.out.println();
         int num = 9;

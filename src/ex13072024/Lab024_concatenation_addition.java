@@ -1,6 +1,6 @@
 package ex13072024;
 
-public class Lab024 {
+public class Lab024_concatenation_addition {
     public static void main(String[] args) {
         int a = 10;
         int b = 34;

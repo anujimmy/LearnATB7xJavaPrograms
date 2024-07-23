@@ -2,15 +2,17 @@ package ex13072024;
 
 public class Lab018 {
     public static void main(String[] args) {
+        char c = 'A';
+        System.out.print(c);
 
-//        byte b = 128;
-//        byte b can hold 128 compiler will throw incompatible types as byte can handle only -127 to 127
+        char c1 = '$';
+        System.out.print(c1);
 
-//        Characters are 2 types
-//            ASCII - every character has a decimal value associated with it
-//                Capital A has Decimal value - 65 & this decimal is converted to binary
+        char c2 = '\n';
+        System.out.print(c2);
 
-//            Unicode - characters - different mandarin values symbols like indian rupee british pounds etc
-//                Smileys also has unicode characters
+        char c3 = '\u1F6A'; // Unicode character for :)
+        System.out.println(c3);
+
     }
 }

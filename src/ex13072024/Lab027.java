@@ -9,6 +9,7 @@ public class Lab027 {
         String s = "anu";
 //        literal value is anu
 //        reference name is s
+//        literal data type is String
 
     }
 }

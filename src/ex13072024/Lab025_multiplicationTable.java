@@ -1,6 +1,6 @@
 package ex13072024;
 
-public class Lab025 {
+public class Lab025_multiplicationTable {
     public static void main(String[] args) {
         String name = "Anu Jimmy";
         String surname  = "Thomas";
@@ -8,8 +8,8 @@ public class Lab025 {
         System.out.println();
         int num = 9;
         for (int i=1;i<=12;i++){
-            System.out.printf("%d * %d = %d",num,i,(num*i));
-            System.out.println();
+            System.out.printf("%d * %d = %d\n",num,i,(num*i));
+//            System.out.println();
         }
     }
 }

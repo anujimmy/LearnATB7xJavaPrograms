@@ -20,5 +20,6 @@ public class J1_FizzBuzz {
                 System.out.println(i);
             }
         }
+        sc.close();
     }
 }

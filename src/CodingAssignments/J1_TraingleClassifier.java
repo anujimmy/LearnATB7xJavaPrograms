@@ -22,5 +22,6 @@ public class J1_TraingleClassifier {
         }else {
             System.out.println("Scalene Triangle");
         }
+        sc.close();
     }
 }

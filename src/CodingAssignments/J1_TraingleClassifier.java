@@ -12,7 +12,7 @@ public class J1_TraingleClassifier {
         System.out.println("enter length of side3");
         double s3 = sc.nextDouble();
         char Type = '0';
-        boolean s12 = (s1 == s2);
+        /*boolean s12 = (s1 == s2);
         boolean s13 = (s1 == s3);
         boolean s23 = (s2 == s3);
         if(s12 && s13 && s23) {
@@ -21,6 +21,13 @@ public class J1_TraingleClassifier {
             System.out.println("Isosceles Triangle");
         }else {
             System.out.println("Scalene Triangle");
+        }*/
+        if ((s1 != s2 ) && (s2 != s3) && (s3 != s1)) {
+            System.out.println("Scalene Triangle");
+        }else if((s1 == s2 ) && (s2 == s3) && (s3 == s1)) {
+            System.out.println("Equilateral Triangle");
+        } else if (((s1==s2)&&(s2!=s3))||((s1==s3) && (s2!=s3))|| ((s2==s3) &&(s2!=s1))){
+            System.out.println("Isosceles Triangle");
         }
         sc.close();
     }

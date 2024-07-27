@@ -15,7 +15,7 @@ public class Lab137 {
         String [] shopping = { "milk","egg","curd" };
         String shopping_list [] = {"milk","curd","bread","butter"};
 
-        int [] arr_int = {1,2,3,'a'};
+        int [] arr_int = {1,2,3,'A'};
 //        int[] arr_int1 = {1,2,3,"one"}; - Not acceptable to JVM as array needs to be homogenous
 
         System.out.println(arr_int[3]);

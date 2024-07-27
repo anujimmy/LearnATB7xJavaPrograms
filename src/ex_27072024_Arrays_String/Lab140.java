@@ -1,4 +1,4 @@
-package ex_27072024_Arrays_String_OOPs;
+package ex_27072024_Arrays_String;
 
 public class Lab140 {
     public static void main(String[] args) {

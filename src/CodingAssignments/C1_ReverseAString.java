@@ -15,12 +15,17 @@ public class C1_ReverseAString {
         for (int i = StrLen-1; i >=0 ; i--) {
             opRevStr.append(ipStrBuilder.charAt(i));
         }
-
-        if(ipStrBuilder.compareTo(opRevStr) == 0) { //ipStrBuilder == opRevStr //ipStrBuilder.equals(opRevStr)
-            System.out.printf("String : %s is a palindrome",opRevStr);
+        if(ipStrBuilder.toString().equals(opRevStr.toString())) { //ipStrBuilder == opRevStr //ipStrBuilder.equals(opRevStr)
+            System.out.printf("String : %s is a palindrome",ipStrBuilder);
         }else{
-            System.out.printf("String : %s is not a palindrome",opRevStr);
+            System.out.printf("String : %s is not a palindrome",ipStrBuilder);
         }
+
+       /* if(ipStrBuilder.compareTo(opRevStr) == 0) { //ipStrBuilder == opRevStr //ipStrBuilder.equals(opRevStr)
+            System.out.printf("String : %s is a palindrome",ipStrBuilder);
+        }else{
+            System.out.printf("String : %s is not a palindrome",ipStrBuilder);
+        }*/
         SC.close();
     }
 }

@@ -7,7 +7,7 @@ public class JrCop {
     }*/
 
     Cop cop1 = new Cop(10,"Anu");
-//    cop1.plsShoot(); --> this is having Error
+//    cop1.plsShoot();   //--> this is having Error
 
 
 

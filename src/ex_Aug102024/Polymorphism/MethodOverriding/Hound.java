@@ -6,4 +6,8 @@ public class Hound extends Dog{
     void bark(){
         System.out.println("i am a hound i will bark");
     }
+
+    void drink(){
+        System.out.println("plusone");
+    }
 }

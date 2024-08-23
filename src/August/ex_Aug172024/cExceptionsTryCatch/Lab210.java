@@ -1,4 +1,4 @@
-package August.ex_Aug172024.ExceptionsLearn;
+package August.ex_Aug172024.cExceptionsTryCatch;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

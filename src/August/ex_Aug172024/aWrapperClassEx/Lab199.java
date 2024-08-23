@@ -1,4 +1,4 @@
-package August.ex_Aug172024.WrapperClassEx;
+package August.ex_Aug172024.aWrapperClassEx;
 
 public class Lab199 {
     public static void main(String[] args) {

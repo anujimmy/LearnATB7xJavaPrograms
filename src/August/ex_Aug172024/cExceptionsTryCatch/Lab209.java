@@ -1,17 +1,12 @@
-package August.ex_Aug172024.ExceptionsLearn;
+package August.ex_Aug172024.cExceptionsTryCatch;
 
-public class Lab213 {
+public class Lab209 {
     public static void main(String[] args) {
         System.out.println("Start of the program");
 
-        int b = 0; // ArithmeticException
-        try {
-            String ip = args[0]; // ArrayIndexOutOfBoundsException
-            int a = Integer.parseInt(ip); // NumberFormatException
-            b = 1000/a;
-        } catch (ArrayIndexOutOfBoundsException | NumberFormatException | ArithmeticException e) {
-            System.out.println(e.getMessage());
-        }
+        String ip = args[0]; // ArrayIndexOutOfBoundsException
+        int a = Integer.parseInt(ip); // NumberFormatException
+        int b = 1000/a; // ArithmeticException
         System.out.println(b);
         System.out.println("End of the program");
 

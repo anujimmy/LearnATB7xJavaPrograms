@@ -1,4 +1,4 @@
-package August.ex_Aug172024.ExceptionsLearn;
+package August.ex_Aug172024.cExceptionsTryCatch;
 
 public class Lab211 {
     public static void main(String[] args) {

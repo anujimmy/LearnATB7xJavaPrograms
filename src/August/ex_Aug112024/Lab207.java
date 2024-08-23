@@ -1,7 +1,7 @@
 package August.ex_Aug112024;
 
 
-import August.ex_Aug172024.EnumEx.COLOURS;
+import August.ex_Aug172024.bEnumEx.COLOURS;
 
 public class Lab207 {
     public static void main(String[] args) {

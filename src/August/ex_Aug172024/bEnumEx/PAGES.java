@@ -1,4 +1,4 @@
-package August.ex_Aug172024.EnumEx;
+package August.ex_Aug172024.bEnumEx;
 
 public enum PAGES {
     CHATBOTPAGE,

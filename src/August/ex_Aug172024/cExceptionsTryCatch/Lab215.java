@@ -1,6 +1,4 @@
-package August.ex_Aug172024.ExceptionsLearn;
-
-import java.sql.SQLOutput;
+package August.ex_Aug172024.cExceptionsTryCatch;
 
 public class Lab215 {
     public static void main(String[] args) {

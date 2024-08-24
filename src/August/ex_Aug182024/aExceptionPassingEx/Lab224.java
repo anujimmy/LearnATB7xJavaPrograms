@@ -1,4 +1,4 @@
-package August.ex_Aug182024.ExceptionPassingEx;
+package August.ex_Aug182024.aExceptionPassingEx;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package August.ex_Aug182024.ExceptionPassingEx;
+package August.ex_Aug182024.aExceptionPassingEx;
 
 public class Lab218 {
     public static void main(String[] args) {
